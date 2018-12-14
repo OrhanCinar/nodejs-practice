@@ -1,5 +1,5 @@
 
-const  readStream = fs.createReadStream('orhan.txt', 'utf8');
+const  readStream = fs.createReadStream('stream.txt', 'utf8');
 const  writeStream = fs.createWriteStream('streamwrite.txt', 'utf8');
 
 

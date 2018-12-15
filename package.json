@@ -16,5 +16,7 @@
     "url": "https://github.com/OrhanCinar/nodejspractice/issues"
   },
   "homepage": "https://github.com/OrhanCinar/nodejspractice#readme",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }

@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const bodyParser = require('body-parser');
-const people = require('./routes/people');
+
 
 
 //dynamic binding
@@ -11,8 +11,6 @@ app.use('/public', express.static(path.join(__dirname, 'static')));
 //body parser
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-
-app.use('/people', people);
 
 //custom middleware
 app.use((req, res, next) => {
